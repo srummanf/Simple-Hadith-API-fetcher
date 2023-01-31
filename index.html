@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <button onclick="fetchData()" id="getApi">Fetch Data</button>
+    </form>
+    <div id="output"></div>
+
+    <script src="/app.js"></script>
+    <script>
+
+        var form = document.getElementById("getApi");
+        function submitForm(event) {
+            event.preventDefault();
+        }
+
+        //Calling a function during form submission.
+        form.addEventListener('click', submitForm);
+
+        function fetchData() {
+            window.stop();
+            fetch(`http://localhost:3000/hadith`)
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.getElementById("output")
+                    container.innerHTML = data.A.text;
+                });
+
+        }
+    </script>
+</body>
+
+</html>

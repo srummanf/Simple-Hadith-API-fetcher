@@ -1,0 +1,32 @@
+{
+  "A": {
+    "id": 1,
+    "hadith": "Sahih Muslim",
+    "text": "I saw the Messenger of Allah (ﷺ) raising his hands (high enough) in supplication (for rain) that the whiteness of his armpits became visible.",
+    "ref": "Sahih Muslim 895a"
+  },
+  "B": {
+    "id": 2,
+    "hadith": "Sahih Bukhari",
+    "text": "In my house he (Prophet (p.b.u.h) ) never passed the last hours of the night but sleeping.",
+    "ref": "Sahih Bukhari 1133"
+  },
+  "C": {
+    "id": 3,
+    "hadith": "Sunan An Nisai",
+    "text": "It was narrated from Anas bin Malik that the prayers were enjoined in Makkah, and that two angels came to the Messenger of Allah (ﷺ) and took him to Zamzam, where they split open his stomach and took out his innards in a basin of gold, and washed them with Zamzam water, then they filled his heart with wisdom and knowledge.",
+    "ref": "Sunan An Nisai 449"
+  },
+  "D": {
+    "id": 4,
+    "hadith": "Sunan Abi Dawud",
+    "text": "The Prophet (ﷺ) as saying: If anyone prays in a day and a night twelve rak'ahs voluntarily (supererogatory prayer), a house will be built from him in Paradise on account of these (rak'ahs).",
+    "ref": "Sunan Abi Dawud 1250"
+  },
+  "E": {
+    "id": 5,
+    "hadith": "Jami'at Tirmidhi",
+    "text": "the Messenger of Allah said: Count the (the appearances of) the crescent of Sha'ban for Ramadan.",
+    "ref": "Jami'at Tirmidhi 687"
+  }
+}
